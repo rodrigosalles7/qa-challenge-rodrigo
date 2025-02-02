@@ -26,9 +26,9 @@ npm install
 Para garantir que todas as dependências estão instaladas corretamente, você pode verificar as versões:
 
 ```sh
-node -v         # Versão do Node.js
+node -v                   # Versão do Node.js
 npx playwright --version  # Versão do Playwright
-ts-node -v      # Versão do TypeScript
+npx tsc --version         # Versão do TypeScript
 ```
 
 ## Executando os Testes
