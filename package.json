@@ -2,7 +2,11 @@
   "name": "qa-challenge-rodrigo",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ui": "playwright test tests/ui",
+    "test:api": "playwright test tests/api",
+    "test:parallel": "npm run test:ui & npm run test:api"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
