@@ -5,7 +5,7 @@
   "scripts": {
     "test:ui": "playwright test tests/ui",
     "test:api": "playwright test tests/api",
-    "test:parallel": "npm run test:ui & npm run test:api"
+    "test:parallel": "playwright test tests"
   },
   "keywords": [],
   "author": "",
