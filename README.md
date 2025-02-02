@@ -3,7 +3,7 @@
 Este repositório contém um conjunto de testes automatizados utilizando **Playwright** e **TypeScript** para testar tanto a interface de usuário (UI) quanto a API.
 
 ## Tecnologias Utilizadas
-- **Playwright** para testes automatizados de UI e API
+- **Playwright** para testes automatizados de UI e API 
 - **TypeScript** para tipagem estática
 - **Node.js** como ambiente de execução
 
